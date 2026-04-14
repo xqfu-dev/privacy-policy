@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Privacy Policy</title>
+<style>
+*{box-sizing:border-box;margin:0;padding:0}
+body{padding:20px;font-family:-apple-system,BlinkMacSystemFont,sans-serif;line-height:1.6;color:#333;background:#fff}
+h1{font-size:20px;margin-bottom:16px;text-align:center}
+h2{font-size:17px;margin:16px 0 8px}
+p{margin-bottom:10px;font-size:15px}
+li{margin-left:20px;margin-bottom:6px;font-size:15px}
+.zh,.en{display:none}
+</style>
+</head>
+<body>
+
+<div class="zh">
+<h1>隐私政策</h1>
+<p>本应用非常重视用户隐私保护，本政策用于说明应用如何使用相关权限与信息，所有行为均遵循合法、正当、必要原则。</p>
+
+<h2>1. 权限使用说明</h2>
+<ul>
+  <li><strong>WiFi 与蓝牙权限</strong>：用于周边设备的发现、连接与通信，仅在使用设备连接功能时使用。</li>
+  <li><strong>网络权限</strong>：用于设备固件 OTA 升级、版本更新及与设备进行网络通信。</li>
+  <li><strong>相册/存储权限</strong>：仅用于将图片、视频保存到用户本地相册，不会上传或收集任何图片、视频内容。</li>
+</ul>
+
+<h2>2. 信息收集与使用</h2>
+<p>本应用<strong>不会收集、上传、存储用户个人身份信息</strong>，不会获取手机号、位置信息、通讯录、短信等隐私数据。</p>
+<p>所有权限仅用于实现本地功能与设备通信，不会用于广告、统计或其他无关用途。</p>
+
+<h2>3. 信息共享与披露</h2>
+<p>本应用不会向任何第三方共享、出售、转让用户的任何信息。</p>
+<p>仅在法律法规、司法机关强制要求时，才会依法进行披露。</p>
+
+<h2>4. 用户权利</h2>
+<ul>
+  <li>用户可随时在系统设置中开启或关闭相关权限。</li>
+  <li>关闭权限仅影响对应功能使用，不会影响应用其他基础能力。</li>
+  <li>用户可随时卸载应用，终止所有权限与数据使用。</li>
+</ul>
+
+<h2>5. 信息安全</h2>
+<p>本应用仅在本地完成数据处理，所有通信仅面向用户自己的设备，采取必要措施保障连接与数据安全。</p>
+
+<h2>6. 政策更新</h2>
+<p>如应用功能或权限调整，本政策会相应更新，并在应用内展示。</p>
+
+<p style="margin-top:24px;text-align:right;color:#888;font-size:14px">生效日期：2026-04-03</p>
+</div>
+
+<div class="en">
+<h1>Privacy Policy</h1>
+<p>This application attaches great importance to user privacy protection. This policy explains how the app uses relevant permissions and information. All behaviors comply with the principles of legality, legitimacy, and necessity.</p>
+
+<h2>1. Permission Usage</h2>
+<ul>
+  <li><strong>WiFi & Bluetooth Permission</strong>: Used for device discovery, connection, and communication only when using the device connection feature.</li>
+  <li><strong>Network Permission</strong>: Used for device firmware OTA updates, version updates, and network communication with connected devices.</li>
+  <li><strong>Photo Gallery / Storage Permission</strong>: Only used to save images and videos to the user's local album. No images or videos will be uploaded or collected.</li>
+</ul>
+
+<h2>2. Information Collection & Use</h2>
+<p>This app <strong>does NOT collect, upload, or store any personal identifiable information</strong>, including phone number, location, contacts, SMS, or other private data.</p>
+<p>All permissions are used only for local functions and device communication. No advertising, tracking, or unrelated usage.</p>
+
+<h2>3. Information Sharing & Disclosure</h2>
+<p>This app will not share, sell, or transfer any user information to third parties.</p>
+<p>Only when required by laws, regulations, or judicial authorities will information be disclosed in accordance with the law.</p>
+
+<h2>4. User Rights</h2>
+<ul>
+  <li>Users can enable or disable permissions at any time in system settings.</li>
+  <li>Disabling permissions only affects related functions, not basic app usage.</li>
+  <li>Users can uninstall the app at any time to terminate all permission and data usage.</li>
+</ul>
+
+<h2>5. Information Security</h2>
+<p>All data processing is performed locally. Communication is only between the app and user-owned devices. Necessary measures are taken to ensure connection and data security.</p>
+
+<h2>6. Policy Updates</h2>
+<p>This policy may be updated with app functions or permission changes and will be displayed within the app.</p>
+
+<p style="margin-top:24px;text-align:right;color:#888;font-size:14px">Effective Date: 2026-04-03</p>
+</div>
+
+<script>
+function setLang(lang){
+  const zh=document.querySelector('.zh');
+  const en=document.querySelector('.en');
+  if(lang==='en'){
+    zh.style.display='none';en.style.display='block';document.documentElement.lang='en';
+  }else{
+    en.style.display='none';zh.style.display='block';document.documentElement.lang='zh-CN';
+  }
+}
+// 默认显示中文
+setLang('zh');
+</script>
+</body>
+</html>
